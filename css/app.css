@@ -1,0 +1,16 @@
+
+body{
+    background-color: pink;
+}
+
+td{
+    width: 30px;
+    height: 30px;
+}
+
+.occupied{
+    background-color: rgb(240, 95, 58);
+}
+.restartFace{
+    text-align: center;
+}

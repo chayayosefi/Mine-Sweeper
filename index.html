@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mine Sweeper</title>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body onload="difficulties('Beginner')">
+   <h1>Mine Sweeper</h1> 
+   <div class="restartFace" onclick="difficulties('Beginner')">😀</div>
+
+   <table border="10" cellpadding="10">
+    <tbody class="board"></tbody>
+</table>
+
+<br>
+<label class="minutes">00</label>:<label class="seconds">00</label>
+<button onclick="difficulties(this.innerText)">Beginner</button>
+<button onclick="difficulties(this.innerText)">Medium</button>
+<button onclick="difficulties(this.innerText)">Expert</button>
+
+<script src="js/util.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>
